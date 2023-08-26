@@ -1,0 +1,25 @@
+{
+  "name": "aws-nodejs-typescript-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jvalerodev",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "delete": "serverless remove"
+  },
+  "devDependencies": {
+    "aws-lambda": "1.0.7",
+    "@types/aws-lambda": "8.10.119",
+    "@typescript-eslint/eslint-plugin": "6.4.1",
+    "@typescript-eslint/parser": "6.4.1",
+    "eslint": "8.48.0",
+    "eslint-config-prettier": "9.0.0",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
+    "prettier": "3.0.2",
+    "serverless-plugin-typescript": "2.1.5",
+    "typescript": "5.2.2"
+  }
+}
